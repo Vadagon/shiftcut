@@ -1,6 +1,6 @@
 {
   "name": "@shiftcut/cli",
-  "version": "0.7.64",
+  "version": "0.1.0",
   "description": "ShiftCut CLI — create, preview, and render HTML video compositions",
   "license": "Apache-2.0",
   "repository": {

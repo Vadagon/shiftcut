@@ -1,6 +1,6 @@
 {
   "name": "@shiftcut/player",
-  "version": "0.7.64",
+  "version": "0.1.0",
   "description": "Embeddable web component for ShiftCut compositions",
   "repository": {
     "type": "git",

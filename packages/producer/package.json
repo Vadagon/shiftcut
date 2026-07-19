@@ -1,6 +1,6 @@
 {
   "name": "@shiftcut/producer",
-  "version": "0.7.64",
+  "version": "0.1.0",
   "description": "HTML-to-video rendering engine using Chrome's BeginFrame API",
   "repository": {
     "type": "git",

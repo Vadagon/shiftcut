@@ -1,7 +1,7 @@
 {
   "name": "shiftcut",
   "description": "ShiftCut by Verblike — CapCut on autopilot. Open any video and tell your coding agent what you want; ShiftCut edits it for you. Cut, caption, reframe, and turn footage into shorts — all local, all open source.",
-  "version": "0.7.64",
+  "version": "0.1.0",
   "author": {
     "name": "Verblike",
     "email": "shiftcut@verblike.com",

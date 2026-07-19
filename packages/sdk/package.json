@@ -1,6 +1,6 @@
 {
   "name": "@shiftcut/sdk",
-  "version": "0.7.64",
+  "version": "0.1.0",
   "description": "Headless, framework-neutral ShiftCut composition editing engine",
   "repository": {
     "type": "git",

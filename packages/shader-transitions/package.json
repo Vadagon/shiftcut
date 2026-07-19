@@ -1,6 +1,6 @@
 {
   "name": "@shiftcut/shader-transitions",
-  "version": "0.7.64",
+  "version": "0.1.0",
   "description": "WebGL shader transitions for ShiftCut compositions",
   "repository": {
     "type": "git",

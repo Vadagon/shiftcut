@@ -31,8 +31,6 @@ const PACKAGES = [
   "packages/shader-transitions",
   "packages/studio",
   "packages/cli",
-  "packages/aws-lambda",
-  "packages/gcp-cloud-run",
   "packages/sdk",
 ];
 

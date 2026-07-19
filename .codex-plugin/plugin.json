@@ -1,7 +1,7 @@
 {
   "name": "shiftcut",
   "description": "CapCut on autopilot — open any video and tell your agent what you want, and ShiftCut edits it. Compositions, Tailwind v4 styles, GSAP and runtime adapter animations, captions, voiceovers, audio-reactive visuals, and website capture for ShiftCut.",
-  "version": "0.7.64",
+  "version": "0.1.0",
   "author": {
     "name": "Verblike",
     "email": "shiftcut@verblike.com",

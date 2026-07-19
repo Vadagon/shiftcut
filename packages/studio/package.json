@@ -1,6 +1,6 @@
 {
   "name": "@shiftcut/studio",
-  "version": "0.7.64",
+  "version": "0.1.0",
   "description": "",
   "repository": {
     "type": "git",
@@ -55,12 +55,12 @@
     "@codemirror/state": "^6.6.0",
     "@codemirror/theme-one-dark": "^6.1.2",
     "@codemirror/view": "6.40.0",
+    "@phosphor-icons/react": "^2.1.10",
     "@shiftcut/core": "workspace:*",
     "@shiftcut/parsers": "workspace:*",
     "@shiftcut/player": "workspace:*",
     "@shiftcut/sdk": "workspace:*",
     "@shiftcut/studio-server": "workspace:*",
-    "@phosphor-icons/react": "^2.1.10",
     "bpm-detective": "^2.0.5",
     "dompurify": "^3.2.4",
     "gsap": "^3.13.0",
