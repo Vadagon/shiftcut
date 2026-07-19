@@ -1,0 +1,18 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "morph-text",
+  "type": "shiftcut:component",
+  "title": "Morph Text",
+  "description": "Gooey text morph — cycles through an editable word list using SVG threshold + GSAP-driven blur for a fluid, satisfying transition effect",
+  "tags": ["text", "text-effect", "typography", "morph", "gooey", "kinetic", "animation"],
+  "files": [
+    {
+      "path": "morph-text.html",
+      "target": "compositions/components/morph-text.html",
+      "type": "shiftcut:snippet"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/components/morph-text.mp4"
+  }
+}

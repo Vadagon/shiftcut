@@ -1,0 +1,24 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "chromatic-radial-split",
+  "type": "shiftcut:block",
+  "title": "Chromatic Radial Split",
+  "description": "Shader transition with chromatic aberration radial split",
+  "tags": ["transition", "shader"],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4,
+  "files": [
+    {
+      "path": "chromatic-radial-split.html",
+      "target": "compositions/chromatic-radial-split.html",
+      "type": "shiftcut:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/chromatic-radial-split.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/chromatic-radial-split.png"
+  }
+}

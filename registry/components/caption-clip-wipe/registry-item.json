@@ -1,0 +1,19 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "caption-clip-wipe",
+  "type": "shiftcut:component",
+  "title": "Clip Wipe",
+  "description": "Left-to-right clip-path wipe reveal per word",
+  "tags": ["captions", "caption-style", "wipe", "clip-path", "reveal"],
+  "files": [
+    {
+      "path": "caption-clip-wipe.html",
+      "target": "compositions/components/caption-clip-wipe.html",
+      "type": "shiftcut:snippet"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/registry/components/caption-clip-wipe/preview-v2.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/components/caption-clip-wipe.png"
+  }
+}

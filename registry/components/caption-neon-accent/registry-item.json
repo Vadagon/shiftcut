@@ -1,0 +1,19 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "caption-neon-accent",
+  "type": "shiftcut:component",
+  "title": "Neon Accent",
+  "description": "Multi-color neon glow accents with wiggle drift animation",
+  "tags": ["captions", "caption-style", "neon", "glow", "accent"],
+  "files": [
+    {
+      "path": "caption-neon-accent.html",
+      "target": "compositions/components/caption-neon-accent.html",
+      "type": "shiftcut:snippet"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/registry/components/caption-neon-accent/preview.mp4?v=1779051416",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/components/caption-neon-accent.png"
+  }
+}

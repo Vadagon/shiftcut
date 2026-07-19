@@ -1,0 +1,9 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/shiftcut.json",
+  "registry": "https://raw.githubusercontent.com/Verblike/shiftcut/main/registry",
+  "paths": {
+    "blocks": "compositions",
+    "components": "compositions/components",
+    "assets": "assets"
+  }
+}

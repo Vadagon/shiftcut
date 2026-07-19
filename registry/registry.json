@@ -1,0 +1,575 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry.json",
+  "name": "shiftcut",
+  "homepage": "https://shiftcut.verblike.com",
+  "items": [
+    {
+      "name": "warm-grain",
+      "type": "shiftcut:example"
+    },
+    {
+      "name": "play-mode",
+      "type": "shiftcut:example"
+    },
+    {
+      "name": "swiss-grid",
+      "type": "shiftcut:example"
+    },
+    {
+      "name": "vignelli",
+      "type": "shiftcut:example"
+    },
+    {
+      "name": "decision-tree",
+      "type": "shiftcut:example"
+    },
+    {
+      "name": "kinetic-type",
+      "type": "shiftcut:example"
+    },
+    {
+      "name": "product-promo",
+      "type": "shiftcut:example"
+    },
+    {
+      "name": "nyt-graph",
+      "type": "shiftcut:example"
+    },
+    {
+      "name": "data-chart",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "us-map",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "us-map-bubble",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "us-map-hex",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "us-map-flow",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "world-map",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "spain-map",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "flowchart",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "logo-outro",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "grain-overlay",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "shimmer-sweep",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "grid-pixelate-wipe",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "motion-blur",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "texture-mask-text",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "vignette",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-pill-karaoke",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-neon-accent",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-weight-shift",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-emoji-pop",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-editorial-emphasis",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-parallax-layers",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-glitch-rgb",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-matrix-decode",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-particle-burst",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-texture",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-clip-wipe",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-kinetic-slam",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-gradient-fill",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-neon-glow",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-highlight",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "caption-blend-difference",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "morph-text",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "instagram-follow",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "tiktok-follow",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "yt-lower-third",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "news-ticker",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-accent-underline",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-bold-block",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-clean-bar",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-color-block",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-dark-card",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-kicker-name",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-mask-reveal",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-side-rule",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-soft-pill",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lt-stack-bars",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "lower-third-bild",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "x-post",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "reddit-post",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "spotify-card",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "macos-notification",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "app-showcase",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "north-korea-locked-down",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "apple-money-count",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "vpn-youtube-spot",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "blue-sweater-intro-video",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "nyc-paris-flight",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "ui-3d-reveal",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "domain-warp-dissolve",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "ridged-burn",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "whip-pan",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "sdf-iris",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "ripple-waves",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "gravitational-lens",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "cinematic-zoom",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "chromatic-radial-split",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "glitch",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "swirl-vortex",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "thermal-distortion",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "flash-through-white",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "cross-warp-morph",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "light-leak",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-3d",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-blur",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-cover",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-destruction",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-dissolve",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-distortion",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-grid",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-light",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-mechanical",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-other",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-push",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-radial",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "transitions-scale",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "vfx-text-cursor",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "vfx-liquid-background",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "vfx-iphone-device",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "vfx-magnetic",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "vfx-portal",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "liquid-glass-notification",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "liquid-glass-context-menu",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "liquid-glass-media-controls",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "liquid-glass-widgets",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "ios26-liquid-glass",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "macos-tahoe-liquid-glass",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "vfx-shatter",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-basic",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-clear-dark",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-clear-light",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-grass",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-homebrew",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-man-page",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-novel",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-ocean",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-pro",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-red-sands",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-silver-aerogel",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-apple-terminal-solid-colors",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-dark-2026",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-dark-modern",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-dark-plus",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-high-contrast",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-high-contrast-light",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-light-2026",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-light-modern",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-light-plus",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-monokai",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-solarized-light",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-visual-studio-dark",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-visual-studio-light",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-morph",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-snippet-flight",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-typing",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-diff",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-highlight",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-scroll",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-3d-extrude",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-shader-dissolve",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "code-particle-assemble",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "flowchart-vertical",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "vfx-liquid-glass",
+      "type": "shiftcut:block"
+    },
+    {
+      "name": "parallax-zoom",
+      "type": "shiftcut:component"
+    },
+    {
+      "name": "parallax-unzoom",
+      "type": "shiftcut:component"
+    }
+  ]
+}

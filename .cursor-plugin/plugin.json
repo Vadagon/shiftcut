@@ -1,0 +1,36 @@
+{
+  "$schema": "https://cursor.com/schemas/cursor-plugin/plugin.json",
+  "name": "shiftcut",
+  "displayName": "ShiftCut by Verblike",
+  "description": "CapCut on autopilot — open any video and tell your agent what you want, and ShiftCut edits it. Compositions, Tailwind v4 styles, GSAP and runtime adapter animations, captions, voiceovers, audio-reactive visuals, and website capture for ShiftCut.",
+  "version": "0.7.64",
+  "author": {
+    "name": "Verblike",
+    "email": "shiftcut@verblike.com"
+  },
+  "publisher": "Verblike",
+  "homepage": "https://shiftcut.verblike.com",
+  "repository": "https://github.com/Verblike/shiftcut",
+  "license": "Apache-2.0",
+  "logo": "assets/logo.png",
+  "category": "developer-tools",
+  "keywords": [
+    "shiftcut",
+    "video",
+    "html",
+    "tailwind",
+    "gsap",
+    "lottie",
+    "three",
+    "waapi",
+    "animejs",
+    "animation",
+    "composition",
+    "rendering",
+    "captions",
+    "tts",
+    "audio-reactive"
+  ],
+  "tags": ["video", "animation", "design", "creative", "workflow"],
+  "skills": "./skills/"
+}

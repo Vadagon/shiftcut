@@ -1,0 +1,24 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "whip-pan",
+  "type": "shiftcut:block",
+  "title": "Whip Pan",
+  "description": "Shader transition simulating a fast camera whip pan",
+  "tags": ["transition", "shader"],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4,
+  "files": [
+    {
+      "path": "whip-pan.html",
+      "target": "compositions/whip-pan.html",
+      "type": "shiftcut:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/whip-pan.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/whip-pan.png"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "liquid-glass-widgets",
+  "type": "shiftcut:block",
+  "title": "Liquid Glass Widgets",
+  "description": "Frosted glass stat cards, showcase panel and pill chips over an aurora shader background",
+  "stability": "experimental",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 8,
+  "tags": ["html-in-canvas", "liquid-glass-html-in-canvas", "webgpu"],
+  "files": [
+    {
+      "path": "liquid-glass-widgets.html",
+      "target": "compositions/liquid-glass-widgets.html",
+      "type": "shiftcut:composition"
+    },
+    {
+      "path": "assets/shiftcut-logo-dark.svg",
+      "target": "compositions/assets/shiftcut-logo-dark.svg",
+      "type": "registry:asset"
+    },
+    {
+      "path": "lib/liquid-glass.iife.js",
+      "target": "compositions/lib/liquid-glass.iife.js",
+      "type": "registry:asset"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/liquid-glass-widgets.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/liquid-glass-widgets.png"
+  }
+}

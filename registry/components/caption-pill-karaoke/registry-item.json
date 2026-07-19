@@ -1,0 +1,19 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "caption-pill-karaoke",
+  "type": "shiftcut:component",
+  "title": "Pill Karaoke",
+  "description": "Pill-shaped container with per-word karaoke color highlight",
+  "tags": ["captions", "caption-style", "karaoke", "pill"],
+  "files": [
+    {
+      "path": "caption-pill-karaoke.html",
+      "target": "compositions/components/caption-pill-karaoke.html",
+      "type": "shiftcut:snippet"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/registry/components/caption-pill-karaoke/preview.mp4?v=1779051416",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/components/caption-pill-karaoke.png"
+  }
+}

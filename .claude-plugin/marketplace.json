@@ -1,0 +1,34 @@
+{
+  "name": "shiftcut",
+  "owner": {
+    "name": "Verblike",
+    "email": "shiftcut@verblike.com",
+    "url": "https://shiftcut.verblike.com"
+  },
+  "plugins": [
+    {
+      "name": "core-skills",
+      "source": "./",
+      "description": "The ShiftCut core set \u2014 install this one: the /shiftcut router, the shiftcut-* domain skills, and media-use. The router installs each creation workflow on demand. The full bundle (all skills at once) is `shiftcut`.",
+      "homepage": "https://shiftcut.verblike.com",
+      "license": "Apache-2.0",
+      "skills": [
+        "./skills/shiftcut",
+        "./skills/shiftcut-animation",
+        "./skills/shiftcut-cli",
+        "./skills/shiftcut-core",
+        "./skills/shiftcut-creative",
+        "./skills/shiftcut-keyframes",
+        "./skills/shiftcut-registry",
+        "./skills/media-use"
+      ]
+    },
+    {
+      "name": "shiftcut",
+      "source": "./",
+      "description": "All ShiftCut skills in one static bundle. Most setups want `core-skills` instead \u2014 the router installs creation workflows on demand. ShiftCut by Verblike — CapCut on autopilot. Open any video and tell your coding agent what you want; ShiftCut edits it for you. Cut, caption, reframe, and turn footage into shorts — all local, all open source.",
+      "homepage": "https://shiftcut.verblike.com",
+      "license": "Apache-2.0"
+    }
+  ]
+}

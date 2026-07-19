@@ -1,0 +1,24 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "domain-warp-dissolve",
+  "type": "shiftcut:block",
+  "title": "Domain Warp Dissolve",
+  "description": "Shader transition with fractal noise domain warping",
+  "tags": ["transition", "shader"],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4,
+  "files": [
+    {
+      "path": "domain-warp-dissolve.html",
+      "target": "compositions/domain-warp-dissolve.html",
+      "type": "shiftcut:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/domain-warp-dissolve.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/domain-warp-dissolve.png"
+  }
+}

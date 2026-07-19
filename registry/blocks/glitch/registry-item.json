@@ -1,0 +1,24 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "glitch",
+  "type": "shiftcut:block",
+  "title": "Glitch",
+  "description": "Shader transition with digital glitch artifacts",
+  "tags": ["transition", "shader"],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4,
+  "files": [
+    {
+      "path": "glitch.html",
+      "target": "compositions/glitch.html",
+      "type": "shiftcut:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/glitch.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/glitch.png"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "nyt-graph",
+  "type": "shiftcut:example",
+  "title": "NYT Graph",
+  "description": "Animated data chart in print editorial style",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 15,
+  "files": [
+    {
+      "path": "compositions/nyt-chart.html",
+      "target": "compositions/nyt-chart.html",
+      "type": "shiftcut:composition"
+    },
+    {
+      "path": "index.html",
+      "target": "index.html",
+      "type": "shiftcut:composition"
+    }
+  ]
+}

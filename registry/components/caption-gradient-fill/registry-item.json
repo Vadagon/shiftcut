@@ -1,0 +1,19 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "caption-gradient-fill",
+  "type": "shiftcut:component",
+  "title": "Gradient Fill",
+  "description": "Gradient-clipped text with elastic bounce entrance",
+  "tags": ["captions", "caption-style", "gradient", "colorful"],
+  "files": [
+    {
+      "path": "caption-gradient-fill.html",
+      "target": "compositions/components/caption-gradient-fill.html",
+      "type": "shiftcut:snippet"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/registry/components/caption-gradient-fill/preview-v2.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/components/caption-gradient-fill.png"
+  }
+}

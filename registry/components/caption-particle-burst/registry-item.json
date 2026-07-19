@@ -1,0 +1,19 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "caption-particle-burst",
+  "type": "shiftcut:component",
+  "title": "Particle Burst",
+  "description": "Keyword words trigger colored particle explosions",
+  "tags": ["captions", "caption-style", "particles", "burst", "effects"],
+  "files": [
+    {
+      "path": "caption-particle-burst.html",
+      "target": "compositions/components/caption-particle-burst.html",
+      "type": "shiftcut:snippet"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/registry/components/caption-particle-burst/preview.mp4?v=1779051416",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/components/caption-particle-burst.png"
+  }
+}

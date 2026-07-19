@@ -1,0 +1,35 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "liquid-glass-notification",
+  "type": "shiftcut:block",
+  "title": "Liquid Glass Notification",
+  "description": "Frosted glass notification cards floating over an aurora shader background",
+  "stability": "experimental",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 8,
+  "tags": ["html-in-canvas", "liquid-glass-html-in-canvas", "webgpu"],
+  "files": [
+    {
+      "path": "liquid-glass-notification.html",
+      "target": "compositions/liquid-glass-notification.html",
+      "type": "shiftcut:composition"
+    },
+    {
+      "path": "lib/liquid-glass.iife.js",
+      "target": "compositions/lib/liquid-glass.iife.js",
+      "type": "registry:asset"
+    },
+    {
+      "path": "assets/shiftcut-logo-dark.svg",
+      "target": "compositions/assets/shiftcut-logo-dark.svg",
+      "type": "registry:asset"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/liquid-glass-notification.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/liquid-glass-notification.png"
+  }
+}

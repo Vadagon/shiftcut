@@ -1,0 +1,34 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "play-mode",
+  "type": "shiftcut:example",
+  "title": "Play Mode",
+  "description": "Playful elastic animations",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 10,
+  "files": [
+    {
+      "path": "compositions/captions.html",
+      "target": "compositions/captions.html",
+      "type": "shiftcut:composition"
+    },
+    {
+      "path": "compositions/intro.html",
+      "target": "compositions/intro.html",
+      "type": "shiftcut:composition"
+    },
+    {
+      "path": "compositions/stats.html",
+      "target": "compositions/stats.html",
+      "type": "shiftcut:composition"
+    },
+    {
+      "path": "index.html",
+      "target": "index.html",
+      "type": "shiftcut:composition"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "thermal-distortion",
+  "type": "shiftcut:block",
+  "title": "Thermal Distortion",
+  "description": "Shader transition with heat haze thermal distortion",
+  "tags": ["transition", "shader"],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 4,
+  "files": [
+    {
+      "path": "thermal-distortion.html",
+      "target": "compositions/thermal-distortion.html",
+      "type": "shiftcut:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/thermal-distortion.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/thermal-distortion.png"
+  }
+}

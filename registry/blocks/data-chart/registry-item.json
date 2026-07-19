@@ -1,0 +1,38 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "data-chart",
+  "type": "shiftcut:block",
+  "title": "Data Chart",
+  "description": "Animated bar + line chart with staggered reveal, NYT-style typography, and value labels",
+  "tags": ["data", "chart", "statistics"],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 15,
+  "files": [
+    {
+      "path": "data-chart.html",
+      "target": "compositions/data-chart.html",
+      "type": "shiftcut:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/data-chart.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/data-chart.png"
+  },
+  "params": [
+    {
+      "key": "--bg-color",
+      "label": "Background",
+      "type": "color",
+      "default": "#faf9f6"
+    },
+    {
+      "key": "--text-color",
+      "label": "Text color",
+      "type": "color",
+      "default": "#333333"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "swiss-grid",
+  "type": "shiftcut:example",
+  "title": "Swiss Grid",
+  "description": "Structured grid layout",
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 10,
+  "files": [
+    {
+      "path": "assets/swiss-grid.svg",
+      "target": "assets/swiss-grid.svg",
+      "type": "shiftcut:asset"
+    },
+    {
+      "path": "compositions/captions.html",
+      "target": "compositions/captions.html",
+      "type": "shiftcut:composition"
+    },
+    {
+      "path": "compositions/graphics.html",
+      "target": "compositions/graphics.html",
+      "type": "shiftcut:composition"
+    },
+    {
+      "path": "compositions/intro.html",
+      "target": "compositions/intro.html",
+      "type": "shiftcut:composition"
+    },
+    {
+      "path": "index.html",
+      "target": "index.html",
+      "type": "shiftcut:composition"
+    }
+  ]
+}

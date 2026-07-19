@@ -1,0 +1,24 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "transitions-destruction",
+  "type": "shiftcut:block",
+  "title": "Destruction Transitions",
+  "description": "Showcase of destructive break-apart transitions",
+  "tags": ["transition", "showcase"],
+  "dimensions": {
+    "width": 1920,
+    "height": 1080
+  },
+  "duration": 14,
+  "files": [
+    {
+      "path": "transitions-destruction.html",
+      "target": "compositions/transitions-destruction.html",
+      "type": "shiftcut:composition"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/transitions-destruction.mp4",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/blocks/transitions-destruction.png"
+  }
+}

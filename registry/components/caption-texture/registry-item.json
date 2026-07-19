@@ -1,0 +1,49 @@
+{
+  "$schema": "https://shiftcut.verblike.com/schema/registry-item.json",
+  "name": "caption-texture",
+  "type": "shiftcut:component",
+  "title": "Texture",
+  "description": "Flowing texture mask over large uppercase text — ships with 6 textures (lava, marble, metal, wood, concrete, rock), configurable via the texture variable",
+  "tags": ["captions", "caption-style", "texture", "mask"],
+  "files": [
+    {
+      "path": "caption-texture.html",
+      "target": "compositions/components/caption-texture.html",
+      "type": "shiftcut:snippet"
+    },
+    {
+      "path": "lava.png",
+      "target": "compositions/components/lava.png",
+      "type": "shiftcut:asset"
+    },
+    {
+      "path": "marble-012.png",
+      "target": "compositions/components/marble-012.png",
+      "type": "shiftcut:asset"
+    },
+    {
+      "path": "metal-046-b.png",
+      "target": "compositions/components/metal-046-b.png",
+      "type": "shiftcut:asset"
+    },
+    {
+      "path": "wood-066.png",
+      "target": "compositions/components/wood-066.png",
+      "type": "shiftcut:asset"
+    },
+    {
+      "path": "concrete-042-a.png",
+      "target": "compositions/components/concrete-042-a.png",
+      "type": "shiftcut:asset"
+    },
+    {
+      "path": "rock-058.png",
+      "target": "compositions/components/rock-058.png",
+      "type": "shiftcut:asset"
+    }
+  ],
+  "preview": {
+    "video": "https://static.heygen.ai/shiftcut-oss/registry/components/caption-texture-lava/preview.mp4?v=1779051416",
+    "poster": "https://static.heygen.ai/shiftcut-oss/docs/images/catalog/components/caption-texture.png"
+  }
+}
