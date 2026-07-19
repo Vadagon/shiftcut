@@ -8,7 +8,7 @@ This repo ships 18 AI agent skills via [vercel-labs/skills](https://github.com/v
 
 ```bash
 npx shiftcut skills update                                   # default: installs/refreshes the core set — workflows install on demand
-npx skills add Verblike/shiftcut --full-depth              # interactive picker (terminal only — non-interactive without --skill installs all 19)
+npx skills add Verblike/shiftcut --full-depth              # interactive picker (terminal only — non-interactive without --skill installs all 18)
 npx skills add Verblike/shiftcut --all --full-depth        # all 18 at once — only on explicit request
 npx skills add Verblike/shiftcut --skill <name> --full-depth  # just one (bare name, no leading slash)
 ```

@@ -24,10 +24,6 @@
   <a href="https://discord.gg/EbK98HBPdk">Discord</a>
 </p>
 
-<p align="center">
-  <img src="docs/public/images/shiftcut-logo-motion-1280-trimmed.webp" alt="ShiftCut demo: HTML code on the left transforms into a rendered video on the right" width="800">
-</p>
-
 ShiftCut is an AI-native, agent-first video editor by [Verblike](https://verblike.com). Open any video, tell your coding agent what you want — "cut this into five shorts," "add captions," "make it vertical" — and ShiftCut does the editing, entirely on your machine. It runs the same deterministic HTML-composition engine under the hood, so it can also build motion graphics, titles, and explainers from scratch when you need them. Free, open source, and 100% local. Use it from AI coding agents via skills, or locally with the CLI.
 
 > **Status: early / building in public.** ShiftCut is an independent rebrand of an HTML-to-video engine, being reshaped into an editor. Editing capabilities (shorts, captions, silence removal, reframe) are landing incrementally; the composition/animation engine is mature.
@@ -42,7 +38,7 @@ Install the ShiftCut skills, then describe the video you want:
 npx skills add Verblike/shiftcut --full-depth
 ```
 
-> The picker opens with nothing pre-selected — the **Core Skills** group is all you need: the `/shiftcut` router installs each creation workflow on demand. Agents and non-interactive runs should use `npx shiftcut skills update` instead — it installs exactly the core set, whereas a non-interactive `skills add` without `--skill` installs all 19.
+> The picker opens with nothing pre-selected — the **Core Skills** group is all you need: the `/shiftcut` router installs each creation workflow on demand. Agents and non-interactive runs should use `npx shiftcut skills update` instead — it installs exactly the core set, whereas a non-interactive `skills add` without `--skill` installs all 18.
 >
 > `--full-depth` does a full clone of the repo's current `main`. Without it, `skills add` fetches the skills.sh registry blob, which lags `main` by hours — you'd get an older copy of a skill. (`shiftcut skills update` already installs full-depth.)
 
@@ -132,59 +128,6 @@ Every brand has a `design.md`. None of them were written for a camera. `frame.md
 
 The output is a `DESIGN.md` superset your whole toolchain can read. Atoms stay sacred. Composition stays free. Numbers come from the script.
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/biennale-yellow"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/biennale-yellow.png" alt="Biennale Yellow" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/biennale-yellow">Biennale Yellow</a></b>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/blockframe"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/blockframe.png" alt="BlockFrame" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/blockframe">BlockFrame</a></b>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/blue-professional"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/blue-professional.png" alt="Blue Professional" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/blue-professional">Blue Professional</a></b>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/bold-poster"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/bold-poster.png" alt="Bold Poster" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/bold-poster">Bold Poster</a></b>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/broadside"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/broadside.png" alt="Broadside" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/broadside">Broadside</a></b>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/capsule"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/capsule.png" alt="Capsule" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/capsule">Capsule</a></b>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/cartesian"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/cartesian.png" alt="Cartesian" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/cartesian">Cartesian</a></b>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/cobalt-grid"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/cobalt-grid.png" alt="Cobalt Grid" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/cobalt-grid">Cobalt Grid</a></b>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/coral"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/coral.png" alt="Coral" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/coral">Coral</a></b>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://shiftcut.verblike.com/design/creative-mode"><img src="https://static.verblike.ai/shiftcut-oss/docs/images/design-templates/creative-mode.png" alt="Creative Mode" width="100%"></a>
-      <br><b><a href="https://shiftcut.verblike.com/design/creative-mode">Creative Mode</a></b>
-    </td>
-  </tr>
-</table>
-
 Browse and remix them all at [shiftcut.verblike.com/design](https://shiftcut.verblike.com/design).
 
 ## How It Works
@@ -262,7 +205,7 @@ Browse the catalog at [shiftcut.verblike.com/catalog](https://shiftcut.verblike.
 
 ## ShiftCut vs Remotion
 
-ShiftCut is inspired by [Remotion](https://www.remotion.dev). Both tools render video with headless Chrome and FFmpeg. The main difference is the authoring model: Remotion's bet is React components; ShiftCut' bet is plain HTML that humans and agents can both write easily.
+ShiftCut is inspired by [Remotion](https://www.remotion.dev). Both tools render video with headless Chrome and FFmpeg. The main difference is the authoring model: Remotion's bet is React components; ShiftCut's bet is plain HTML that humans and agents can both write easily.
 
 |                          | **ShiftCut**                          | **Remotion**                            |
 | ------------------------ | ------------------------------------- | --------------------------------------- |
@@ -297,6 +240,10 @@ Full documentation: [shiftcut.verblike.com/introduction](https://shiftcut.verbli
 | [`@shiftcut/studio`](packages/studio)                         | Browser-based composition editor UI                               |
 | [`@shiftcut/player`](packages/player)                         | Embeddable `<shiftcut-player>` web component                      |
 | [`@shiftcut/shader-transitions`](packages/shader-transitions) | WebGL shader transitions for compositions                         |
+| [`@shiftcut/sdk`](packages/sdk)                               | Programmatic API for building and inspecting compositions         |
+| [`@shiftcut/parsers`](packages/parsers)                       | Composition HTML parsing shared across the toolchain              |
+| [`@shiftcut/lint`](packages/lint)                             | Composition lint rules used by `shiftcut lint` and `check`        |
+| [`@shiftcut/studio-server`](packages/studio-server)           | Dev server backing the preview studio                             |
 
 ## Community
 
