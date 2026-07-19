@@ -223,15 +223,6 @@ function verifyPackedJavaScriptImports(workspace, filename, packedFiles) {
   }
 }
 
-function parsePackJson(output, workspace) {
-  try {
-    const parsed = JSON.parse(output);
-    return Array.isArray(parsed) ? parsed : [parsed];
-  } catch {
-    throw new Error(`Could not parse pnpm pack JSON output for ${workspace}`);
-  }
-}
-
 function readWorkspacePackage(workspace) {
   return JSON.parse(readFileSync(join(ROOT, workspace, "package.json"), "utf8"));
 }
@@ -246,11 +237,17 @@ function assertPublishedExportsMatchSource(workspace, sourcePackageJson) {
 }
 
 function packWorkspace(workspace, packDir) {
-  const packOutput = execFileSync("pnpm", ["pack", "--json", "--pack-destination", packDir], {
+  // `bun pm pack --quiet` prints only the tarball path. Bun (unlike npm) resolves
+  // `workspace:*` specifiers to real versions while packing, which is what
+  // assertNoWorkspaceRefs verifies and what `bun publish` does at release time.
+  const packOutput = execFileSync("bun", ["pm", "pack", "--quiet", "--destination", packDir], {
     cwd: join(ROOT, workspace),
     encoding: "utf8",
   });
-  const [{ filename }] = parsePackJson(packOutput, workspace);
+  const filename = packOutput.trim();
+  if (!filename) {
+    throw new Error(`bun pm pack produced no tarball path for ${workspace}`);
+  }
   return filename;
 }
 
@@ -398,15 +395,11 @@ function verifyPackedConsumer(packDir, packedWorkspaces) {
     cwd: fixtureDir,
     encoding: "utf8",
   });
-  const cliOutput = execFileSync(
-    join(fixtureDir, "node_modules", ".bin", "shiftcut"),
-    ["--help"],
-    {
-      cwd: fixtureDir,
-      encoding: "utf8",
-      env: { ...process.env, SHIFTCUT_TELEMETRY_DISABLED: "1" },
-    },
-  );
+  const cliOutput = execFileSync(join(fixtureDir, "node_modules", ".bin", "shiftcut"), ["--help"], {
+    cwd: fixtureDir,
+    encoding: "utf8",
+    env: { ...process.env, SHIFTCUT_TELEMETRY_DISABLED: "1" },
+  });
   if (!cliOutput.toLowerCase().includes("shiftcut")) {
     throw new Error("Packed CLI help did not identify ShiftCut");
   }
