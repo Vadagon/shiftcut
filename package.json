@@ -11,7 +11,7 @@
   "type": "module",
   "scripts": {
     "dev": "bun run studio",
-    "build": "bun run --filter '@shiftcut/{parsers,lint,studio-server}' build && bun run --filter @shiftcut/core build && bun run --filter '@shiftcut/{core,engine,producer,player,studio,shader-transitions,sdk}' build && bun run --filter @shiftcut/cli build && bun run --filter @shiftcut/sdk-playground build",
+    "build": "bun run --filter '@shiftcut/{parsers,lint,studio-server}' build && bun run --filter @shiftcut/core build && bun run --cwd packages/producer build:fonts && bun run --filter '@shiftcut/{core,engine,producer,player,studio,shader-transitions,sdk}' build && bun run --filter @shiftcut/cli build && bun run --filter @shiftcut/sdk-playground build",
     "build:producer": "bun run --filter @shiftcut/producer build",
     "studio": "bun run --filter @shiftcut/studio dev",
     "build:shiftcut-runtime": "bun run --filter @shiftcut/core build:shiftcut-runtime",
